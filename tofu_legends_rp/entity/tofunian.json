@@ -4,12 +4,6 @@
     "components": {
       "badger:block_source_info": {
       },
-      "badger:face_animation": {
-        "anim_columns": 2,
-        "anim_rows": 1,
-        "blink_frame": 1,
-        "default_frame": 0
-      },
       "badger:interpolation": {
         "orientation_interpolation_steps": 2.5,
         "position_interpolation_steps": 2.25,
@@ -32,7 +26,7 @@
       },
       "badger:template": [
         "badger:template_animal",
-        "badger:template_status_effects_tiny"
+        "badger:template_status_effects"
       ]
     },
     "description": {
@@ -40,12 +34,12 @@
       "materials": {
         "mat_tofunian": "mat_tofunian"
       },
-      "textures": {
-        "default": "textures/entity/tofunian/tofunian"
-      },
       "geometry": {
         "default": "geometry.tofunian"
       },
+      "face_poses": [
+        "Neutral"
+      ],
       "enable_attachables": false,
       "particle_effects": {
         "fx_corpse_removal": "badger:fx_shared_corpse_remove_small",
