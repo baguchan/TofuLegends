@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.tofunian.base": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"walk": 1.0
+						}
+					],
+					"transitions": [
+						{
+							"death": "variable.is_dead"
+						}
+					],
+					"blend_transition": 0.1
+				},
+				"death": {
+					"animations": [
+						{
+							"dead": 1.0
+						}
+					],
+					"blend_transition": 0.2,
+					"sound_effects": [
+						{
+							"effect": "dx_death",
+							"enabled": true
+						}
+					]
+				}
+			}
+		}
+	}
+}

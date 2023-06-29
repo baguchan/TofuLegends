@@ -1,0 +1,74 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "components": {
+      "badger:block_source_info": {
+      },
+      "badger:face_animation": {
+        "anim_columns": 2,
+        "anim_rows": 1,
+        "blink_frame": 1,
+        "default_frame": 0
+      },
+      "badger:interpolation": {
+        "orientation_interpolation_steps": 2.5,
+        "position_interpolation_steps": 2.25,
+        "position_interpolation_steps_y_down": 1
+      },
+      "badger:keep_alive_timer": {
+        "time": 1.3
+      },
+      "badger:lookat": {
+        "joint_name": "joint_look_at",
+        "look_at_axis": "-y",
+        "max_angle": 60,
+        "max_range": 75,
+        "min_range": 5,
+        "turning_delta": 5
+      },
+      "badger:rendering": {
+        "definition": "badger:tofunian",
+        "limit": 64
+      },
+      "badger:template": [
+        "badger:template_animal",
+        "badger:template_status_effects_tiny"
+      ]
+    },
+    "description": {
+      "identifier": "badger:tofunian",
+      "materials": {
+        "mat_tofunian": "mat_tofunian"
+      },
+      "textures": {
+        "default": "textures/entity/tofunian/tofunian"
+      },
+      "geometry": {
+        "default": "geometry.tofunian"
+      },
+      "enable_attachables": false,
+      "particle_effects": {
+        "fx_corpse_removal": "badger:fx_shared_corpse_remove_small",
+        "fx_death": "badger:fx_shared_death_smoke_small"
+      },
+      "animations": {
+        "look": "animation.tofunian.look",
+        "base": "controller.animation.tofunian.base",
+        "dead": "animation.tofunian.death"
+      },
+      "render_controllers": [
+        "controller.render.tofunian"
+      ],
+      "scripts": {
+        "animate": [
+          {
+            "look": "1"
+          },
+          {
+            "base": "1"
+          }
+        ]
+      }
+    }
+  }
+}

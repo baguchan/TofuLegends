@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.tofunian": {
+      "arrays": {
+        "materials": {
+          "Array.materials": [
+            "MetaMaterial.mat_tofunian"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "MetaMaterial.mat_tofunian"
+        }
+      ]
+    },
+    "part_visibility": [
+      {
+        "second_skin": "variable.second_skin_vis"
+      }
+    ]
+  }
+}

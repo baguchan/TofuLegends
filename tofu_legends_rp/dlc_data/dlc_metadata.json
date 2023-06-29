@@ -1,0 +1,9 @@
+{
+  "icon": "dlc_data/icon.jpg",
+  "icon_alt": "dlc_data/icon_alt.jpg",
+  "reward_icon": "dlc_data/reward.png",
+  "name": "tofu_legends",
+  "pack_id": "tofu_legends",
+  "type": "myth"
+}
+  

@@ -1,0 +1,21 @@
+{
+  "game_modes": [
+    {
+      "behavior_pack": "e82809f7-81d0-555f-76c5-edebfd0af8b8",
+      "default_privacy": 0,
+      "loading_tip_set": "campaign",
+      "max_players": 1,
+      "name": "tofu_legends",
+      "parent": "myth",
+      "resource_pack": "bdf2347e-4a11-b43c-3a07-a51bf7caf671",
+      "telemetry_name": "Tofu Legends",
+      "ui_style": "lostLegend"
+    }
+  ],
+  "myths_hub_host_list": [
+    {
+      "name": "tofu_legends"
+    }
+  ]
+}
+  
