@@ -24,12 +24,6 @@
 						}
 					],
 					"blend_transition": 0.2,
-					"sound_effects": [
-						{
-							"effect": "dx_death",
-							"enabled": true
-						}
-					]
 				}
 			}
 		}

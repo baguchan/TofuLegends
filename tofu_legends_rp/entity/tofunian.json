@@ -68,6 +68,9 @@
             "base": "1"
           }
         ]
+      },
+      "sound_effects": {
+        "step": "BAE_animal_pig_step"
       }
     }
   }
