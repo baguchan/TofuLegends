@@ -1,5 +1,5 @@
 {
-  "format_version": "1.12.0",
+  "format_version": "1.8.0",
   "minecraft:entity": {
     "description": {
       "identifier": "badger:spawner_tofunian",
@@ -7,12 +7,6 @@
       "is_summonable": false
     },
     "components": {
-      "badger:spawner_rules": {
-        "bsharp_rule": {
-          "variable": "gv_started_act_3_a",
-          "value": 1
-        }
-      },
       "badger:aabb": {
         "width": 1,
         "height": 1

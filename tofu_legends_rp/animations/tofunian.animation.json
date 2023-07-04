@@ -160,14 +160,6 @@
             ]
           }
         }
-      },
-      "sound_effects": {
-        "0.2917": {
-          "effect": "step"
-        },
-        "0.7917": {
-          "effect": "step"
-        }
       }
     },
     "animation.tofunian.death": {

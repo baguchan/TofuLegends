@@ -25,13 +25,13 @@
         "limit": 64
       },
       "badger:template": [
-        "badger:template_animal",
         "badger:template_status_effects"
       ]
     },
     "description": {
       "identifier": "badger:tofunian",
       "materials": {
+        "default": "entity_model",
         "mat_tofunian": "mat_tofunian"
       },
       "geometry": {
@@ -63,8 +63,8 @@
           }
         ]
       },
-      "sound_effects": {
-        "step": "BAE_animal_pig_step"
+      "textures": {
+        "default": "textures/entity/tofunian/tofunian"
       }
     }
   }

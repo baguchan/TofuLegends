@@ -14,11 +14,6 @@
         {
           "mat_tofunian": "MetaMaterial.mat_tofunian"
         }
-      ],
-      "part_visibility": [
-        {
-          "second_skin": "variable.second_skin_vis"
-        }
       ]
     }
   }
