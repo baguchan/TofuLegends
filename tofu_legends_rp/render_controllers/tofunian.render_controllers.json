@@ -1,19 +1,15 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.10.0",
   "render_controllers": {
     "controller.render.tofunian": {
-      "arrays": {
-        "materials": {
-          "Array.materials": [
-            "MetaMaterial.mat_tofunian"
-          ]
-        }
-      },
-      "geometry": "Geometry.default",
+      "geometry": "geometry.default",
       "materials": [
         {
           "mat_tofunian": "MetaMaterial.mat_tofunian"
         }
+      ],
+      "textures": [
+        "texture.default"
       ]
     }
   }
